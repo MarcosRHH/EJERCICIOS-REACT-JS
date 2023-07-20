@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-Link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  outline: none; /* Elimina el resaltado predeterminado de enfoque */
+}
+
+.nav-link:hover {
+  /* Estilos de enfoque para el elemento seleccionado */
+  /* Puedes personalizar estos estilos según tus preferencias */
+  cursor: pointer;
+  color: #3D6475;
+  /* Otros estilos adicionales */
+}
+
+div {
+  padding: 3px;
+}
